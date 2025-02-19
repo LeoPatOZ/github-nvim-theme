@@ -77,7 +77,7 @@
 
 ; Function parameters
 (call_struct_argument name: (identifier) @field)
-(event_paramater name: (identifier) @variable.parameter)
+(event_parameter name: (identifier) @variable.parameter)
 (parameter name: (identifier) @variable.parameter)
 
 ; Yul functions
@@ -159,7 +159,7 @@
 (import_directive "as" @keyword.import)
 (import_directive "from" @keyword.import)
 
-(event_paramater "indexed" @keyword)
+(event_parameter "indexed" @keyword)
 
 ; Punctuation
 
